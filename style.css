@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.page-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#cert-form{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 100px;
+}
+#cert-form input{
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#cert-form button{
+    background-color: rgb(203, 224, 255);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    width: 100px;
+    font-size: 20px;
+}
+#cert-form button:hover{
+    background-color: rgb(58, 140, 255);
+    color: aliceblue;
+}
+#certificate{
+    position: relative;
+    width: 835px;
+    height: 642.5px;
+    border: solid 5px black;
+}
+#background-image{
+    position: absolute;
+    width: 825px;
+    height: 637.5px;
+    z-index: -1;
+    overflow: hidden;
+}
+.universal > div:first-of-type{
+    margin: 10px 75px;
+}
+.universal div:first-of-type div:first-of-type{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.universal div:first-of-type div:first-of-type img{
+    width: 250px;
+    height: 100px;
+}
+.universal div:first-of-type div:first-of-type h2{
+    font-size: 50px;
+    padding-top: 25px;
+    line-height: 55px;
+}
+.universal div:first-of-type div:first-of-type h2 span{
+    font-size: 35px;
+}
+.universal div:first-of-type p:first-of-type{
+    margin-top: 30px;
+    width: 450px;
+    font-size: 18px;
+}
+.universal div:first-of-type p:first-of-type span{
+    font-size: 25px;
+}
+.universal div:first-of-type p:first-of-type strong{
+    display: block;
+    font-size: 30px;
+    border-bottom: 5px solid;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.universal div:first-of-type > p:nth-of-type(2){
+    margin-top: 20px;
+    width: 450px;
+}
+.universal > div > div:nth-of-type(2){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+}
+.universal > div > div:nth-of-type(2) section h3{
+    font-family: "Style Script", cursive;
+    border-bottom: 3px solid;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.universal > div > div:nth-of-type(2) section ul{
+    list-style-type: none;
+    font-size: 14px;
+}
+.universal > div > p:last-of-type{
+    width: 365px;
+    text-align: left;
+    margin-top: 55px;
+}
+.universal em{
+    font-style: normal;
+}
+
+.underweight div:first-of-type div:first-of-type h2, .obese div:first-of-type div:first-of-type h2{
+    color: red;
+}
+.underweight div:first-of-type div:first-of-type h2 span, .obese div:first-of-type div:first-of-type h2 span{
+    color: white;
+}
+.underweight div:first-of-type p:first-of-type, .obese div:first-of-type p:first-of-type{
+    color: white;
+}
+.underweight div:first-of-type p:first-of-type span, .obese div:first-of-type p:first-of-type span{
+    color: white;
+}
+.underweight div:first-of-type p:first-of-type strong, .obese div:first-of-type p:first-of-type strong{
+    color:red;
+    border-bottom: solid 5px white;
+}
+.underweight em, .obese em{
+    color: red;
+}
+.underweight div:first-of-type > p:nth-of-type(2), .obese div:first-of-type > p:nth-of-type(2){
+    color: white;
+}
+.underweight > div > div:nth-of-type(2) section h3, .obese > div > div:nth-of-type(2) section h3{
+    color: red;
+}
+.underweight > div > div:nth-of-type(2) section ul, .obese > div > div:nth-of-type(2) section ul{
+    color: red;
+}
+.underweight > div > p:last-of-type, .obese > div > p:last-of-type{
+    color: white;
+}
+
+.healthy div:first-of-type div:first-of-type h2{
+    color: green;
+}
+.healthy div:first-of-type div:first-of-type h2 span{
+    color: white;
+}
+.healthy div:first-of-type p:first-of-type{
+    color: white;
+}
+.healthy div:first-of-type p:first-of-type span{
+    color: white;
+}
+.healthy div:first-of-type p:first-of-type strong{
+    color:green;
+    border-bottom: solid 5px white;
+}
+.healthy em{
+    color: green;
+}
+.healthy div:first-of-type > p:nth-of-type(2){
+    color: white;
+}
+.healthy > div > div:nth-of-type(2) section h3{
+    color: green;
+}
+.healthy > div > div:nth-of-type(2) section ul{
+    color: green;
+}
+.healthy > div > p:last-of-type{
+    color: white;
+}
+
+.overweight div:first-of-type div:first-of-type h2{
+    color: #B31942;
+}
+.overweight div:first-of-type div:first-of-type h2 span{
+    color: white;
+}
+.overweight div:first-of-type p:first-of-type{
+    color: white;
+}
+.overweight div:first-of-type p:first-of-type span{
+    color: white;
+}
+.overweight div:first-of-type p:first-of-type strong{
+    color:#B31942;
+    border-bottom: solid 5px white;
+}
+.overweight em{
+    color: #B31942;
+}
+.overweight div:first-of-type > p:nth-of-type(2){
+    color: white;
+}
+.overweight > div > div:nth-of-type(2) section h3{
+    color: #B31942;
+}
+.overweight > div > div:nth-of-type(2) section ul{
+    color: #B31942;
+}
+.overweight > div > p:last-of-type{
+    color: white;
+}
+
+.emptyCert > div{
+    display: none;
+}
+.emptyCert > img{
+    display: none;
+}
+
+@media print {
+    #cert-form{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+}
